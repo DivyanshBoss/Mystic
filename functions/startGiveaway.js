@@ -41,7 +41,7 @@ async function startGiveaway(interaction) {
 
   const joinButton = new ButtonBuilder()
     .setCustomId('join_giveaway')
-    .setLabel(`🎉`)
+    .setLabel(`<a:Giveaway:1173805918199226388>`)
     .setStyle(ButtonStyle.Primary);
 
   const row = new ActionRowBuilder().addComponents(joinButton);
@@ -56,7 +56,7 @@ async function startGiveaway(interaction) {
     channelId: channelId,
     messageId: giveawayMessage.id,
     prize,
-    endTime: new Date(endTime),
+    endTime: <a:DOT:1281651557636636693> ended-new Date(endTime),
     winners,
     participants: [],
     ongoing: true,
