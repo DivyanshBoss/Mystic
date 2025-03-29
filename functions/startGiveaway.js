@@ -24,9 +24,9 @@ async function startGiveaway(interaction) {
   }
 
   const embed = new EmbedBuilder()
-    .setTitle('🎉 New Giveaway! 🎉')
+    .setTitle('Prize: **${prize}**')
     .setDescription(
-      `Prize: **${prize}**\nHosted by: ${interaction.user}\nEnds in: <t:${Math.floor(endTime / 1000)}:R>`
+      `Hosted by: ${interaction.user}\nEnds in: <t:${Math.floor(endTime / 1000)}:R>`
     )
     .setColor('#FF0000')
     .setTimestamp(endTime);
