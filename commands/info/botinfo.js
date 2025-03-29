@@ -32,7 +32,7 @@ module.exports = {
 
     const botInfoEmbed = new EmbedBuilder()
       .setColor(0x5865f2)
-      .setTitle(`${client.user.username} - The official bot of Mystic Kingdom.`)
+      .setTitle(`${client.user.username} -The official bot of Mystic Kingdom`)
       .setThumbnail(client.user.displayAvatarURL({ dynamic: true }))
       .addFields(
         {
